@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SpaceX</string>
+    <string name="mission_name">Mission Name</string>
+    <string name="rocket_name">Rocket Name</string>
+    <string name="launch_site_name">Launch Site Name</string>
+    <string name="date_of_launch">Date of Launch</string>
+    <string name="todo">TODO</string>
+    <string name="space_x_detail">space x detail</string>
+</resources>
