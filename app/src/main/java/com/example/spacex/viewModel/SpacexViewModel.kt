@@ -12,14 +12,10 @@ import javax.inject.Inject
 
 @HiltViewModel
 class SpacexViewModel @Inject constructor(private val repository: IRepository): ViewModel() {
-    /**
-     * Spacex API
-     * AN.- No need for open, by default Kotlin is public, OPEN is for having a customized encapsulation
-     * only meaningful if this class will be subclassed and you want this VAR to be overriden by the childs.
-     */
-    /*open*/ private val _spaceXDataAPIResult = MutableLiveData<SpaceXPresentationData>()
 
-    // Backing Field
+     private val _spaceXDataAPIResult = MutableLiveData<SpaceXPresentationData>()
+
+
     val spaceXDataAPIResult: LiveData<SpaceXPresentationData>
         get() = _spaceXDataAPIResult
 

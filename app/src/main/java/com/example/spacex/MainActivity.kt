@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     val viewModel: SpacexViewModel by viewModels()
 
-    // ?????? private var adapter:RecyclerView.Adapter<RecycleViewAdapter.ViewHolder>? = null ?????
+
     private val adapter: SpaceXAdapter by lazy {
         SpaceXAdapter(SpaceXDataX(),this)
     }
