@@ -1,4 +1,4 @@
-package com.example.spacex.Models.DataAPI
+package com.example.spacex.models.data
 
 data class Payload(
     var cap_serial: String?, // C101

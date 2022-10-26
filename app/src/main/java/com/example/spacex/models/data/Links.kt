@@ -1,4 +1,4 @@
-package com.example.spacex.Models.DataAPI
+package com.example.spacex.models.data
 
 data class Links(
     var article_link: String?, // https://www.space.com/2196-spacex-inaugural-falcon-1-rocket-lost-launch.html

@@ -1,4 +1,6 @@
-package com.example.spacex.Models.DataAPI
+package com.example.spacex.models.data
+
+import java.io.Serializable
 
 data class SpaceXDataItem(
     var crew: List<Any?>?,

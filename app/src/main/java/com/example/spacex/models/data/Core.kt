@@ -1,4 +1,4 @@
-package com.example.spacex.Models.DataAPI
+package com.example.spacex.models.data
 
 data class Core(
     var block: Int?, // 1

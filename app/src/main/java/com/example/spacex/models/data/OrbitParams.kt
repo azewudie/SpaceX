@@ -1,4 +1,4 @@
-package com.example.spacex.Models.DataAPI
+package com.example.spacex.models.data
 
 data class OrbitParams(
     var apoapsis_km: Double?, // 622.56
